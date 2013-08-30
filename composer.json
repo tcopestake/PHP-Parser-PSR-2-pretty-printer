@@ -1,0 +1,11 @@
+{
+    "name": "tcopestake/php-parser-psr-2-pretty-printer",
+    "description": "A PSR-2 pretty printer for PHP-Parser.",
+    "require": {
+        "php": ">=5.2",
+        "nikic/php-parser": "0.9.4"
+    },
+    "autoload": {
+        "psr-0": { "PHPParserPSR2": "src/" }
+    }
+}

@@ -1,6 +1,6 @@
 <?php
 
-class PrinterPSR2 extends PHPParser_PrettyPrinter_Default
+class PHPParserPSR2_Printer extends \PHPParser_PrettyPrinter_Default
 {
     protected $classCount = 0;
     protected $methodCount = 0;
