@@ -4,13 +4,19 @@
 
 ## Installation
 
-I'm currently not offering this as a Composer package, as I feel it may be overkill for one file. For now, download PrinterPSR2.php and work whatever magic you need to get it running.
+### Composer
+
+Add the package to your composer.json requirements e.g.
+
+    "require": {
+        "tcopestake/php-parser-psr-2-pretty-printer": "dev-release"
+    }
 
 ## Usage
 
-To use this pretty printer, instantiate `PrinterPSR2` instead of (for example) `PHPParser_PrettyPrinter_Default` and use it as you would normally. e.g:
+To use this pretty printer, instantiate `PHPParserPSR2_Printer` instead of (for example) `PHPParser_PrettyPrinter_Default` and use it as you would normally. e.g:
 
-    $printer = new PrinterPSR2;
+    $printer = new PHPParserPSR2_Printer;
 
     ...
 
