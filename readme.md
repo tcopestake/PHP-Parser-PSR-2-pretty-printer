@@ -128,3 +128,5 @@ Output:
 
     }
 
+## License
+MIT
